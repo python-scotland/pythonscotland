@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<title>edinburgh2: what’s on</title>
+	<link href="{{ url_for('static', filename='css/reset.css') }}" media="screen" rel="stylesheet" type="text/css" />
+	<link href="{{ url_for('static', filename='css/core.css') }}" media="screen" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+
+	<header>
+		<h1>Python Scotland</h1>
+
+	</header>
+
+	<article>
+		<section>
+			<header><h2>Monthly</h2></header>
+			<ol class="events">
+				{% for group in groups %}
+				<li class="vcard">
+					<h3><a class="fn org url" href="{{ group.link }}">{{ group.name }}</a></h3>
+					<p class="who">{{ group.who }}</p>
+					<p class="when">{{ group.when }}</p>
+				</li>
+				{% endfor %}
+			</ol>
+		</section>
+
+	</article>
+
+	<footer>
+		<p>
+			Originally a <a href="http://sneeu.com/">sneeu.com</a> thing at
+			<a href="http://edinburgh2.com/">edinburgh2.com</a>. Butchered by
+			<a href="http://dougalmatthews.com">Dougal Matthews</a> for Python.
+
+		</p>
+	</footer>
+
+</body>
+</html>

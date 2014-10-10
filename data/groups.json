@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Python Glasgow",
+        "who": "Pythonistas",
+        "when": "Second Tuesday",
+        "link": "http://pythonglasgow.org/"
+    },{
+        "name": "PyLadies Edinburgh",
+        "who": "Female Python developers",
+        "when": "Second Tuesday",
+        "link": "http://www.meetup.com/PyLadiesEdinburgh"
+    },{
+        "name": "Python Edinburgh",
+        "who": "Pythonistas",
+        "when": "Fourth Tuesday",
+        "link": "http://pythonedinburgh.org/"
+    }
+]
