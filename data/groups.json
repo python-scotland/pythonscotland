@@ -6,13 +6,23 @@
         "link": "http://pythonglasgow.org/"
     },{
         "name": "PyLadies Edinburgh",
-        "who": "Female Python developers",
+        "who": "Female Pythonistas",
         "when": "Second Tuesday",
         "link": "http://www.meetup.com/PyLadiesEdinburgh"
+    },{
+        "name": "Python Dundee",
+        "who": "Pythonistas",
+        "when": "Second Tuesday",
+        "link": "http://opentechcalendar.co.uk/group/224-python-dundee"
     },{
         "name": "Python Edinburgh",
         "who": "Pythonistas",
         "when": "Fourth Tuesday",
         "link": "http://pythonedinburgh.org/"
+    },{
+        "name": "Python Aberdeen",
+        "who": "Pythonistas",
+        "when": "",
+        "link": "http://www.meetup.com/Aberdeen-Python-Meetup"
     }
 ]
